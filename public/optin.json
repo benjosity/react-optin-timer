@@ -1,0 +1,18 @@
+{
+  "image": {
+    "retina": "img/top_image_scale_2x.png",
+    "nonRetina": "img/top_image_scale_1x.png"
+  },
+  "button": {
+    "url": "https://www.jackpotjoy.com",
+    "text": "Opt In"
+  },
+  "content": {
+    "cash": "10"
+  },
+  "timer": {
+    "hours": 0,
+    "minutes": 0,
+    "seconds": 15
+  }
+}

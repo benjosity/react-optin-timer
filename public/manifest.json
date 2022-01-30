@@ -1,0 +1,8 @@
+{
+  "short_name": "Opt in App",
+  "name": "Opt in before the timer ends",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#390c65",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,70 @@
+/*------------------------------------*\
+    OPT IN COMPONENT
+\*------------------------------------*/
+// Component Container
+.opt-in {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  max-width: 600px;
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+
+  img {
+    max-width: 320px;
+    @media screen and (min-width: 640px) {
+      max-width: 420px;
+    }
+  }
+
+  .timer,
+  .cash-value {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cash-value {
+    margin-top: 20px;
+    font-size: 3.2rem;
+    margin-bottom: 5px;
+
+    @media screen and (min-width: 640px) {
+      font-size: 4.2rem;
+    }
+  }
+
+  .timer {
+    font-family: "Teko", sans-serif;
+    font-size: 5.2rem;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+
+    .separator {
+      margin: 0 15px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 6.2rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 7.2rem;
+    }
+
+    .time-label {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  }
+
+  .optin-button {
+    width: 100%;
+    max-width: 245px;
+    margin-top: 40px;
+  }
+}
